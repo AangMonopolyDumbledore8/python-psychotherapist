@@ -23,8 +23,8 @@ questions = ["what's your problem?", "why do you feel that way?", ("Is it becaus
 #userinput
 userinput = input(b+random.choice(questions)+": "+w)
 x = 1
-if (random.choice(questions)) == "what's your problem?":
-    addToVar()
+"""if (random.choice(questions)) == "what's your problem?":
+    addToVar()"""
 while True:
     if (random.choice(questions)) == "what's your problem?":
         #if (counter) <= 1:
